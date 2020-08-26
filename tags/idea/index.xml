@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Website of Jane Doe</title>
-    <link>zhaxiang01.github.io/</link>
-    <description>Recent content on Website of Jane Doe</description>
+    <title>Idea on Website of Jane Doe</title>
+    <link>zhaxiang01.github.io/tags/idea/</link>
+    <description>Recent content in Idea on Website of Jane Doe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2020 11:45:59 +0800</lastBuildDate>
     
-	<atom:link href="zhaxiang01.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="zhaxiang01.github.io/tags/idea/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,27 +21,6 @@
 下载JDK之后安装，一直点击下一步就可以了，JDK默认安装后jdk和jre都在C:\Program Files\Java目录下。安装后需要配置环境变量，具体步骤如下：
   右击“我的电脑”&amp;ndash;&amp;gt;&amp;quot;属性&amp;rdquo;&amp;ndash;&amp;gt;&amp;quot;高级系统设置&amp;rdquo;&amp;ndash;&amp;gt;&amp;quot;高级&amp;rdquo;&amp;ndash;&amp;gt;&amp;quot;环境变量&amp;rdquo;
   在系统变量里新建&amp;quot;JAVA_HOME&amp;quot;变量，变量值为：C:\Program Files\Java\jdk1.</description>
-    </item>
-    
-    <item>
-      <title>Blog</title>
-      <link>zhaxiang01.github.io/post/blog/</link>
-      <pubDate>Wed, 26 Aug 2020 10:04:08 +0800</pubDate>
-      
-      <guid>zhaxiang01.github.io/post/blog/</guid>
-      <description>zhaxiang_web 资料 Spring 文档
-Spring Web
-es 社区
-Github deploy key</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>zhaxiang01.github.io/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>zhaxiang01.github.io/about/</guid>
-      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.</description>
     </item>
     
   </channel>

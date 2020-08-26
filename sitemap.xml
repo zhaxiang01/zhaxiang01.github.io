@@ -3,12 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>zhaxiang01.github.io/post/blog1/</loc>
+    <loc>zhaxiang01.github.io/tags/idea/</loc>
+    <lastmod>2020-08-26T11:45:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>zhaxiang01.github.io/post/idea%E7%9A%84jdk%E5%92%8Cmaven%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2020-08-26T11:45:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>zhaxiang01.github.io/tags/jdk/</loc>
+    <lastmod>2020-08-26T11:45:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>zhaxiang01.github.io/tags/maven/</loc>
     <lastmod>2020-08-26T11:45:59+08:00</lastmod>
   </url>
   
   <url>
     <loc>zhaxiang01.github.io/post/</loc>
+    <lastmod>2020-08-26T11:45:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>zhaxiang01.github.io/tags/</loc>
     <lastmod>2020-08-26T11:45:59+08:00</lastmod>
   </url>
   
@@ -29,10 +49,6 @@
   
   <url>
     <loc>zhaxiang01.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>zhaxiang01.github.io/tags/</loc>
   </url>
   
 </urlset>
