@@ -3,12 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>zhaxiang01.github.io/post/blog1/</loc>
-    <lastmod>2020-08-26T11:45:59+08:00</lastmod>
+    <loc>zhaxiang01.github.io/post/blog2/</loc>
+    <lastmod>2020-08-26T11:55:29+08:00</lastmod>
   </url>
   
   <url>
     <loc>zhaxiang01.github.io/post/</loc>
+    <lastmod>2020-08-26T11:55:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>zhaxiang01.github.io/post/blog1/</loc>
     <lastmod>2020-08-26T11:45:59+08:00</lastmod>
   </url>
   
