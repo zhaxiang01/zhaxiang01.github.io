@@ -207,23 +207,26 @@ Local repository：先将Override勾上，然后在下拉框中选择对应maven
 <p>上述工作完成后，使用Maven，可能还会报出一个错误：Cannot resolve plugin org.springframework.boot:spring-boot-maven-plugin:2.3&hellip;<br>
 这是spring-boot-maven-plugin 构建找不到<br>
 解决方法是在settings.xml中添加一段代码：</p>
-<!-- raw HTML omitted -->
-<pre><code>  &lt;activation&gt;  
-    &lt;jdk&gt;spring plugins&lt;/jdk&gt;  
-  &lt;/activation&gt;  
+<pre><code>&lt;profiles&gt;  
+  &lt;profile&gt;  
+    &lt;id&gt;spring plugins&lt;/id&gt;  
 
-  &lt;pluginRepositories&gt;  
-    &lt;pluginRepository&gt;  
-      &lt;id&gt;spring plugins&lt;/id&gt;  
-      &lt;name&gt;Spring plugins&lt;/name&gt;  
-      &lt;url&gt;https://maven.aliyun.com/repository/spring-plugin&lt;/url&gt;  
-      &lt;layout&gt;default&lt;/layout&gt;  
-      &lt;snapshotPolicy&gt;always&lt;/snapshotPolicy&gt;  
-    &lt;/pluginRepository&gt;  
-  &lt;/pluginRepositories&gt;  
-&lt;/profile&gt;  
+    &lt;activation&gt;  
+      &lt;jdk&gt;spring plugins&lt;/jdk&gt;  
+    &lt;/activation&gt;  
+  
+    &lt;pluginRepositories&gt;  
+      &lt;pluginRepository&gt;  
+        &lt;id&gt;spring plugins&lt;/id&gt;  
+        &lt;name&gt;Spring plugins&lt;/name&gt;  
+        &lt;url&gt;https://maven.aliyun.com/repository/spring-plugin&lt;/url&gt;  
+        &lt;layout&gt;default&lt;/layout&gt;  
+        &lt;snapshotPolicy&gt;always&lt;/snapshotPolicy&gt;  
+      &lt;/pluginRepository&gt;  
+    &lt;/pluginRepositories&gt;  
+  &lt;/profile&gt;  
+&lt;/profiles&gt;   
 </code></pre>
-<!-- raw HTML omitted -->
 </li>
 </ul>
 <p>这样Maven就配置结束了</p>
