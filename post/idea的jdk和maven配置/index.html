@@ -112,7 +112,7 @@
 
     <h2 id="idea中添加多个jdk进行设置">Idea中添加多个JDk进行设置</h2>
 <h3 id="jdk的下载安装与环境配置">Jdk的下载安装与环境配置</h3>
-<p>这里是JDK的下载地址<a href="https://www.oracle.com/java/technologies/javase-downloads.html">JDK下载地址</a></p>
+<p>这里是JDK的下载地址：<a href="https://www.oracle.com/java/technologies/javase-downloads.html">JDK下载地址</a></p>
 <p>下载JDK之后安装，一直点击下一步就可以了，JDK默认安装后jdk和jre都在C:\Program Files\Java目录下。安装后需要配置环境变量，具体步骤如下：</p>
 <ul>
 <li>
@@ -120,29 +120,29 @@
 </li>
 <li>
 <p>在系统变量里新建&quot;JAVA_HOME&quot;变量，变量值为：C:\Program Files\Java\jdk1.8.0_60（根据自己的jdk的安装路径填写）<br>
-<!-- raw HTML omitted --></p>
+<img src="https://images2017.cnblogs.com/blog/865264/201710/865264-20171005161828849-307270700.png" alt="avatar"></p>
 </li>
 <li>
 <p>找到path变量（已存在不用新建）添加变量值：%JAVA_HOME%\bin</p>
 </li>
 <li>
 <p>“Windows+R”&ndash;&gt;输入“cmd”&ndash;&gt;Enter，输入java -version(记得中间有个空格)，如果显示jdk版本信息就说明环境变量配置成功了。<br>
-<!-- raw HTML omitted --></p>
+<img src="https://images2015.cnblogs.com/blog/865264/201611/865264-20161115220426748-937682643.png" alt="avatar"></p>
 </li>
 </ul>
 <h3 id="idea中添加jdk以及项目配置">Idea中添加JDK以及项目配置</h3>
 <ul>
 <li>
 <p>打开Idea，点击左上角的【file】，点击【Project Structure】<br>
-<!-- raw HTML omitted --></p>
+<img src="https://exp-picture.cdn.bcebos.com/92dd32f7dfb2dc1984b461ae95def4dca139102d.jpg?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_500%2Climit_1" alt="avatar"></p>
 </li>
 <li>
 <p>点击【SDK】中【+】号<br>
-<!-- raw HTML omitted --></p>
+<img src="https://exp-picture.cdn.bcebos.com/f385f299594304011f6624f7d66b04d14829052d.jpg?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_500%2Climit_1" alt="avatar"></p>
 </li>
 <li>
-<p>选择下拉框中的【JDK】
-<!-- raw HTML omitted --><br>
+<p>选择下拉框中的【JDK】<br>
+<img src="https://exp-picture.cdn.bcebos.com/4759c1dae43b3b8665b975e2185653bbf920752d.jpg?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_500%2Climit_1" alt="avatar"><br>
 这样就可以向Idea中添加多个下载好的JDK</p>
 </li>
 <li>
@@ -152,7 +152,7 @@
 <h3 id="maven的下载安装与环境配置">Maven的下载安装与环境配置</h3>
 <ul>
 <li>
-<p>这里是Maven的下载地址<a href="http://maven.apache.org/download.cgi">Maven下载地址</a></p>
+<p>这里是Maven的下载地址：<a href="http://maven.apache.org/download.cgi">Maven下载地址</a></p>
 </li>
 <li>
 <p>确认已经安装了JDK后，将Maven解压安装即可</p>
@@ -165,49 +165,50 @@
 </li>
 <li>
 <p>以管理员身份打开cmd，输入mvn -version，按回车键，可以看到maven的版本信息，代表安装成功<br>
-<!-- raw HTML omitted --></p>
+<img src="https://exp-picture.cdn.bcebos.com/47bf594ec28333bf58b023fadbb8b43ea9db1df4.jpg?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_500%2Climit_1" alt="avatar"></p>
 </li>
 <li>
 <p>设置Maven的本地仓库：首先在maven文件夹的同一级目录中新建文件夹作为本地仓库，例如我在与文件夹apache-maven-3.3.9<br>
-的同一级目录中新建了<em>MavenRepository3.3.9</em>文件夹作为本地仓库。接着需要修改配置文件settings.xml，<br>
-修改之前建议备份。在文件中添加代码
-<!-- raw HTML omitted --><br>
-<!-- raw HTML omitted -->添加的代码<!-- raw HTML omitted -->其中<em>添加的代码</em>是本地仓库文件夹的绝对路径，<br>
+的同一级目录中新建了 <em>MavenRepository3.3.9</em> 文件夹作为本地仓库。接着需要修改配置文件settings.xml，<br>
+修改之前建议备份。在文件中添加代码<br>
+<img src="https://upload-images.jianshu.io/upload_images/16516131-ea1ff4975e1fc54c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/672/format/webp" alt="avatar"> <br>
+<!-- raw HTML omitted -->添加的代码<!-- raw HTML omitted -->其中 <em>添加的代码</em> 是本地仓库文件夹的绝对路径，<br>
 例如我的代码应该是：F:\idea_maven\MavenRepository3.3.9</p>
 </li>
 <li>
-<p>修改Maven镜像，改成阿里的镜像，代码如下：<br>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->alimaven<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->aliyun maven<!-- raw HTML omitted -->
-<!-- raw HTML omitted --><a href="http://maven.aliyun.com/nexus/content/groups/public/">http://maven.aliyun.com/nexus/content/groups/public/</a><!-- raw HTML omitted -->
-<!-- raw HTML omitted -->central<!-- raw HTML omitted -->     <br>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted --></p>
+<p>修改Maven镜像，改成阿里的镜像，代码如下：</p>
+<pre><code>  &lt;mirrors&gt;
+    &lt;mirror&gt;
+      &lt;id&gt;alimaven&lt;/id&gt;
+      &lt;name&gt;aliyun maven&lt;/name&gt;
+      &lt;url&gt;http://maven.aliyun.com/nexus/content/groups/public/&lt;/url&gt;
+      &lt;mirrorOf&gt;central&lt;/mirrorOf&gt;        
+    &lt;/mirror&gt;
+  &lt;/mirrors&gt;
+</code></pre>
 </li>
 </ul>
 <h3 id="idea中选择maven">Idea中选择maven</h3>
 <ul>
 <li>
-<p>打开Idea，点击左上角的【file】，点击【Settings&hellip;】
-<!-- raw HTML omitted --></p>
+<p>打开Idea，点击左上角的【file】，点击【Settings&hellip;】<br>
+<img src="https://img-blog.csdnimg.cn/20190420101849312.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NyaW5nS29uZw==,size_16,color_FFFFFF,t_70" alt="avatar"></p>
 </li>
 <li>
-<p>这里可以直接搜索maven，就可以进入idea的Maven配置选项。
-<!-- raw HTML omitted --><br>
-这里有三个地方需要配置：<br>
+<p>这里可以直接搜索maven，就可以进入idea的Maven配置选项。<br>
+<img src="https://img-blog.csdnimg.cn/20190420102050668.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NyaW5nS29uZw==,size_16,color_FFFFFF,t_70" alt="avatar"></p>
+</li>
+</ul>
+<p>这里有三个地方需要配置：<br>
 Maven home directory：在下拉框里选择需要的maven版本<br>
 User settings file：先将Override勾上，然后在下拉框中选择对应maven版本的settings.xml文件<br>
 Local repository：先将Override勾上，然后在下拉框中选择对应maven版本的自建的本地仓库</p>
-</li>
+<ul>
 <li>
 <p>上述工作完成后，使用Maven，可能还会报出一个错误：Cannot resolve plugin org.springframework.boot:spring-boot-maven-plugin:2.3&hellip;<br>
 这是spring-boot-maven-plugin 构建找不到<br>
-解决方法是在settings.xml中添加一段代码：<br>
-<!-- raw HTML omitted --><br>
-<!-- raw HTML omitted --><br>
-<!-- raw HTML omitted -->spring plugins<!-- raw HTML omitted --></p>
+解决方法是在settings.xml中添加一段代码：</p>
+<!-- raw HTML omitted -->
 <pre><code>  &lt;activation&gt;  
     &lt;jdk&gt;spring plugins&lt;/jdk&gt;  
   &lt;/activation&gt;  
