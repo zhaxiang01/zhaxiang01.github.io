@@ -2,21 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Website of Jane Doe</title>
-    <link>https://zhaxiang01.github.io/post/</link>
+    <link>zhaxiang01.github.io/post/</link>
     <description>Recent content in Posts on Website of Jane Doe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Aug 2020 10:04:08 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2020 11:45:59 +0800</lastBuildDate>
     
-	<atom:link href="https://zhaxiang01.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="zhaxiang01.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Blog1</title>
+      <link>zhaxiang01.github.io/post/blog1/</link>
+      <pubDate>Wed, 26 Aug 2020 11:45:59 +0800</pubDate>
+      
+      <guid>zhaxiang01.github.io/post/blog1/</guid>
+      <description>zhaxiang_web 资料 Spring 文档
+Spring Web
+es 社区
+Github deploy key Bootstrap</description>
+    </item>
+    
+    <item>
       <title>Blog</title>
-      <link>https://zhaxiang01.github.io/post/blog/</link>
+      <link>zhaxiang01.github.io/post/blog/</link>
       <pubDate>Wed, 26 Aug 2020 10:04:08 +0800</pubDate>
       
-      <guid>https://zhaxiang01.github.io/post/blog/</guid>
+      <guid>zhaxiang01.github.io/post/blog/</guid>
       <description>zhaxiang_web 资料 Spring 文档
 Spring Web
 es 社区
