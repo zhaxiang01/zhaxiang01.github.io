@@ -1,34 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo tranquilpeak theme</title>
-    <link>https://zhaxiang01.github.io/</link>
-    <description>Recent content on Hugo tranquilpeak theme</description>
+    <title>小战博客</title>
+    <link>https:zhaxiang01.github.io/</link>
+    <description>Recent content on 小战博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh-cn</language>
     <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://zhaxiang01.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https:zhaxiang01.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Idea的JDK和Maven配置</title>
-      <link>https://zhaxiang01.github.io/2020/08/idea%E7%9A%84jdk%E5%92%8Cmaven%E9%85%8D%E7%BD%AE/</link>
+      <link>https:zhaxiang01.github.io/2020/08/idea%E7%9A%84jdk%E5%92%8Cmaven%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Wed, 26 Aug 2020 11:45:59 +0800</pubDate>
       
-      <guid>https://zhaxiang01.github.io/2020/08/idea%E7%9A%84jdk%E5%92%8Cmaven%E9%85%8D%E7%BD%AE/</guid>
+      <guid>https:zhaxiang01.github.io/2020/08/idea%E7%9A%84jdk%E5%92%8Cmaven%E9%85%8D%E7%BD%AE/</guid>
       <description>&lt;p&gt;Idea的JDK和Maven配置过程&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://zhaxiang01.github.io/about/</link>
+      <link>https:zhaxiang01.github.io/about/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://zhaxiang01.github.io/about/</guid>
+      <guid>https:zhaxiang01.github.io/about/</guid>
       <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 Hugo makes use of a variety of open source projects including:
  https://github.</description>
+    </item>
+    
+    <item>
+      <title>Cover image showcase</title>
+      <link>https:zhaxiang01.github.io/2015/05/cover-image-showcase/</link>
+      <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https:zhaxiang01.github.io/2015/05/cover-image-showcase/</guid>
+      <description>&lt;p&gt;Tranquilpeak integrate a unique &amp;ldquo;cover image&amp;rdquo; feature. Open this post to see how this feature sublimate your article.&lt;/p&gt;</description>
     </item>
     
   </channel>
