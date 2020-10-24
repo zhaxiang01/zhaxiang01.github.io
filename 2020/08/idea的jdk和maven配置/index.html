@@ -8,28 +8,36 @@
 <meta name="generator" content="Hugo 0.71.0 with theme Tranquilpeak 0.4.8-BETA">
 <meta name="author" content="Firstname Lastname">
 <meta name="keywords" content="">
-<meta name="description" content="Hugo, the world’s fastest framework for building websites">
+<meta name="description" content="Idea的JDK和Maven配置过程">
 
 
-<meta property="og:description" content="Hugo, the world’s fastest framework for building websites">
+<meta property="og:description" content="Idea的JDK和Maven配置过程">
 <meta property="og:type" content="article">
-<meta property="og:title" content="About">
-<meta name="twitter:title" content="About">
-<meta property="og:url" content="https://zhaxiang01.github.io/about/">
-<meta property="twitter:url" content="https://zhaxiang01.github.io/about/">
+<meta property="og:title" content="Idea的JDK和Maven配置">
+<meta name="twitter:title" content="Idea的JDK和Maven配置">
+<meta property="og:url" content="https://zhaxiang01.github.io/2020/08/idea%E7%9A%84jdk%E5%92%8Cmaven%E9%85%8D%E7%BD%AE/">
+<meta property="twitter:url" content="https://zhaxiang01.github.io/2020/08/idea%E7%9A%84jdk%E5%92%8Cmaven%E9%85%8D%E7%BD%AE/">
 <meta property="og:site_name" content="Hugo tranquilpeak theme">
-<meta property="og:description" content="Hugo, the world’s fastest framework for building websites">
-<meta name="twitter:description" content="Hugo, the world’s fastest framework for building websites">
+<meta property="og:description" content="Idea的JDK和Maven配置过程">
+<meta name="twitter:description" content="Idea的JDK和Maven配置过程">
 <meta property="og:locale" content="en-us">
 
   
-    <meta property="article:published_time" content="2019-02-28T00:00:00">
+    <meta property="article:published_time" content="2020-08-26T11:45:59">
   
   
-    <meta property="article:modified_time" content="2019-02-28T00:00:00">
+    <meta property="article:modified_time" content="2020-08-26T11:45:59">
   
   
   
+  
+    
+      <meta property="article:tag" content="Idea">
+    
+      <meta property="article:tag" content="JDK">
+    
+      <meta property="article:tag" content="Maven">
+    
   
 
 
@@ -49,14 +57,14 @@
   <meta property="twitter:image" content="https://www.gravatar.com/avatar/d09dc2d7aa5c467519e8af89f7b3d94c?s=640">
 
 
-    <title>About</title>
+    <title>Idea的JDK和Maven配置</title>
 
     <link rel="icon" href="https://zhaxiang01.github.io/favicon.png">
     
 
     
 
-    <link rel="canonical" href="https://zhaxiang01.github.io/about/">
+    <link rel="canonical" href="https://zhaxiang01.github.io/2020/08/idea%E7%9A%84jdk%E5%92%8Cmaven%E9%85%8D%E7%BD%AE/">
 
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
@@ -76,7 +84,7 @@
 
   <body>
     <div id="blog">
-      <header id="header" data-behavior="1">
+      <header id="header" data-behavior="4">
   <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
   <div class="header-title">
     <a class="header-title-link" href="https://zhaxiang01.github.io/">Hugo tranquilpeak theme</a>
@@ -96,7 +104,7 @@
   
 </header>
 
-      <nav id="sidebar" data-behavior="1">
+      <nav id="sidebar" data-behavior="4">
   <div class="sidebar-container">
     
       <div class="sidebar-profile">
@@ -206,7 +214,7 @@
 
       
 
-      <div id="main" data-behavior="1"
+      <div id="main" data-behavior="4"
         class="
                hasCoverMetaIn
                ">
@@ -216,15 +224,15 @@
             <div class="post-header main-content-wrap text-left">
   
     <h1 class="post-title" itemprop="headline">
-      About
+      Idea的JDK和Maven配置
     </h1>
   
   
   <div class="postShorten-meta post-meta">
     
-      <time itemprop="datePublished" datetime="2019-02-28T00:00:00Z">
+      <time itemprop="datePublished" datetime="2020-08-26T11:45:59&#43;08:00">
         
-  February 28, 2019
+  August 26, 2020
 
       </time>
     
@@ -235,25 +243,143 @@
           
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
-              <p>Written in Go, Hugo is an open source static site generator available under the <a href="https://github.com/gohugoio/hugo/blob/master/LICENSE">Apache Licence 2.0.</a> Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.</p>
-<p>Hugo makes use of a variety of open source projects including:</p>
+              <p>Idea的JDK和Maven配置过程</p>
+<h2 id="idea中添加多个jdk进行设置">Idea中添加多个JDk进行设置</h2>
+<h3 id="jdk的下载安装与环境配置">Jdk的下载安装与环境配置</h3>
+<p>这里是JDK的下载地址：<a href="https://www.oracle.com/java/technologies/javase-downloads.html">JDK下载地址</a></p>
+<p>下载JDK之后安装，一直点击下一步就可以了，JDK默认安装后jdk和jre都在C:\Program Files\Java目录下。安装后需要配置环境变量，具体步骤如下：</p>
 <ul>
-<li><a href="https://github.com/yuin/goldmark">https://github.com/yuin/goldmark</a></li>
-<li><a href="https://github.com/alecthomas/chroma">https://github.com/alecthomas/chroma</a></li>
-<li><a href="https://github.com/muesli/smartcrop">https://github.com/muesli/smartcrop</a></li>
-<li><a href="https://github.com/spf13/cobra">https://github.com/spf13/cobra</a></li>
-<li><a href="https://github.com/spf13/viper">https://github.com/spf13/viper</a></li>
+<li>右击“我的电脑”&ndash;&gt;&quot;属性&rdquo;&ndash;&gt;&quot;高级系统设置&rdquo;&ndash;&gt;&quot;高级&rdquo;&ndash;&gt;&quot;环境变量&rdquo;</li>
+<li>在系统变量里新建&quot;JAVA_HOME&quot;变量，变量值为：C:\Program Files\Java\jdk1.8.0_60（根据自己的jdk的安装路径填写）</li>
+<li>找到path变量（已存在不用新建）添加变量值：%JAVA_HOME%\bin</li>
+<li>“Windows+R”&ndash;&gt;输入“cmd”&ndash;&gt;Enter，输入java -version(记得中间有个空格)，如果显示jdk版本信息就说明环境变量配置成功了。</li>
 </ul>
-<p>Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.</p>
-<p>Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.</p>
-<p>Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.</p>
-<p>Learn more and contribute on <a href="https://github.com/gohugoio">GitHub</a>.</p>
-
+<h3 id="idea中添加jdk以及项目配置">Idea中添加JDK以及项目配置</h3>
+<ul>
+<li>
+<p>打开Idea，点击左上角的【file】，点击【Project Structure】<br>
+<img src="https://exp-picture.cdn.bcebos.com/92dd32f7dfb2dc1984b461ae95def4dca139102d.jpg?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_500%2Climit_1" alt="avatar"></p>
+</li>
+<li>
+<p>点击【SDKs】中【+】号<br>
+<img src="https://exp-picture.cdn.bcebos.com/f385f299594304011f6624f7d66b04d14829052d.jpg?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_500%2Climit_1" alt="avatar"></p>
+</li>
+<li>
+<p>选择下拉框中的【JDK】<br>
+<img src="https://exp-picture.cdn.bcebos.com/4759c1dae43b3b8665b975e2185653bbf920752d.jpg?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_500%2Climit_1" alt="avatar"><br>
+这样就可以向Idea中添加多个下载好的JDK</p>
+</li>
+<li>
+<p>点击【Project】，在右边下拉框中选择项目的JDK版本</p>
+</li>
+</ul>
+<h3 id="maven的下载安装与环境配置">Maven的下载安装与环境配置</h3>
+<ul>
+<li>
+<p>这里是Maven的下载地址：<a href="http://maven.apache.org/download.cgi">Maven下载地址</a></p>
+</li>
+<li>
+<p>确认已经安装了JDK后，将Maven解压安装即可</p>
+</li>
+<li>
+<p>Maven环境变量配置：在系统变量里新建&quot;MAVEN_HOME&quot;变量，变量值为：F:\idea_maven\apache-maven-3.3.9（根据自己的jdk的安装路径填写）</p>
+</li>
+<li>
+<p>找到path变量（已存在不用新建）添加变量值：%MAVEN_HOME%\bin</p>
+</li>
+<li>
+<p>以管理员身份打开cmd，输入mvn -version，按回车键，可以看到maven的版本信息，代表安装成功<br>
+<img src="https://exp-picture.cdn.bcebos.com/47bf594ec28333bf58b023fadbb8b43ea9db1df4.jpg?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_500%2Climit_1" alt="avatar"></p>
+</li>
+<li>
+<p>设置Maven的本地仓库：首先在maven文件夹的同一级目录中新建文件夹作为本地仓库，例如我在与文件夹apache-maven-3.3.9的同一级目录中新建了 <em>MavenRepository3.3.9</em> 文件夹作为本地仓库。接着需要修改配置文件settings.xml，修改之前建议备份。在文件中添加的代码如下图所示： <br>
+<img src="https://s1.51cto.com/images/20180318/1521348802953982.png?x-oss-process=image/watermark,size_16,text_QDUxQ1RP5Y2a5a6i,color_FFFFFF,t_100,g_se,x_10,y_10,shadow_90,type_ZmFuZ3poZW5naGVpdGk=" alt="avatar">
+其中 <em>添加的代码</em> 是本地仓库文件夹的绝对路径 
+例如我的代码应该是：F:\idea_maven\MavenRepository3.3.9</p>
+</li>
+<li>
+<p>修改Maven镜像，改成阿里的镜像，代码如下：</p>
+<pre><code>  &lt;mirrors&gt;
+    &lt;mirror&gt;
+      &lt;id&gt;alimaven&lt;/id&gt;
+      &lt;name&gt;aliyun maven&lt;/name&gt;
+      &lt;url&gt;http://maven.aliyun.com/nexus/content/groups/public/&lt;/url&gt;
+      &lt;mirrorOf&gt;central&lt;/mirrorOf&gt;        
+    &lt;/mirror&gt;
+  &lt;/mirrors&gt;
+</code></pre>
+</li>
+</ul>
+<h3 id="idea中选择maven">Idea中选择maven</h3>
+<ul>
+<li>
+<p>打开Idea，点击左上角的【file】，点击【Settings&hellip;】<br>
+<img src="https://img-blog.csdnimg.cn/20190420101849312.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NyaW5nS29uZw==,size_16,color_FFFFFF,t_70" alt="avatar"></p>
+</li>
+<li>
+<p>这里可以直接搜索maven，就可以进入idea的Maven配置选项。<br>
+<img src="https://img-blog.csdnimg.cn/20190420102050668.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NyaW5nS29uZw==,size_16,color_FFFFFF,t_70" alt="avatar"></p>
+</li>
+</ul>
+<p>这里有三个地方需要配置：<br>
+Maven home directory：在下拉框里选择需要的maven版本<br>
+User settings file：先将Override勾上，然后在下拉框中选择对应maven版本的settings.xml文件<br>
+Local repository：先将Override勾上，然后在下拉框中选择对应maven版本的自建的本地仓库</p>
+<ul>
+<li>
+<p>上述工作完成后，使用Maven，可能还会报出一个错误：Cannot resolve plugin org.springframework.boot:spring-boot-maven-plugin:2.3&hellip;<br>
+这是spring-boot-maven-plugin 构建找不到<br>
+解决方法是在settings.xml中添加一段代码：</p>
+<pre><code>&lt;profiles&gt;  
+  &lt;profile&gt;  
+    &lt;id&gt;spring plugins&lt;/id&gt;  
+    
+    &lt;activation&gt;  
+      &lt;jdk&gt;spring plugins&lt;/jdk&gt;  
+    &lt;/activation&gt;  
+  
+    &lt;pluginRepositories&gt;  
+      &lt;pluginRepository&gt;  
+        &lt;id&gt;spring plugins&lt;/id&gt;  
+        &lt;name&gt;Spring plugins&lt;/name&gt;  
+        &lt;url&gt;https://maven.aliyun.com/repository/spring-plugin&lt;/url&gt;  
+        &lt;layout&gt;default&lt;/layout&gt;  
+        &lt;snapshotPolicy&gt;always&lt;/snapshotPolicy&gt;  
+      &lt;/pluginRepository&gt;  
+    &lt;/pluginRepositories&gt;  
+  &lt;/profile&gt;  
+&lt;/profiles&gt;   
+</code></pre>
+</li>
+</ul>
+<p>这样Maven就配置结束了</p>
+<h3 id="idea中jdk和maven的默认配置">Idea中JDK和Maven的默认配置</h3>
+<ul>
+<li>打开Idea，点击左上角的【file】，点击【Other Settings】</li>
+<li>点击【Settings for New Projects&hellip;】</li>
+<li>搜索Maven进行默认配置</li>
+<li>点击【Structure for New Projects&hellip;】</li>
+<li>这里可以进行JDK的默认配置</li>
+</ul>
               
             </div>
           </div>
           <div id="post-footer" class="post-footer main-content-wrap">
             
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://zhaxiang01.github.io/tags/idea/">Idea</a>
+
+  <a class="tag tag--primary tag--small" href="https://zhaxiang01.github.io/tags/jdk/">JDK</a>
+
+  <a class="tag tag--primary tag--small" href="https://zhaxiang01.github.io/tags/maven/">Maven</a>
+
+                  </div>
+                
               
             
             <div class="post-actions-wrap">
@@ -289,19 +415,19 @@
         </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://zhaxiang01.github.io/about/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://zhaxiang01.github.io/2020/08/idea%E7%9A%84jdk%E5%92%8Cmaven%E9%85%8D%E7%BD%AE/">
               <i class="fa fa-facebook-official"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://zhaxiang01.github.io/about/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://zhaxiang01.github.io/2020/08/idea%E7%9A%84jdk%E5%92%8Cmaven%E9%85%8D%E7%BD%AE/">
               <i class="fa fa-twitter"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://zhaxiang01.github.io/about/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://zhaxiang01.github.io/2020/08/idea%E7%9A%84jdk%E5%92%8Cmaven%E9%85%8D%E7%BD%AE/">
               <i class="fa fa-google-plus"></i>
             </a>
           </li>
@@ -341,7 +467,7 @@
 </footer>
 
       </div>
-      <div id="bottom-bar" class="post-bottom-bar" data-behavior="1">
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
         <div class="post-actions-wrap">
   
       <nav >
@@ -375,19 +501,19 @@
         </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://zhaxiang01.github.io/about/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://zhaxiang01.github.io/2020/08/idea%E7%9A%84jdk%E5%92%8Cmaven%E9%85%8D%E7%BD%AE/">
               <i class="fa fa-facebook-official"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://zhaxiang01.github.io/about/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://zhaxiang01.github.io/2020/08/idea%E7%9A%84jdk%E5%92%8Cmaven%E9%85%8D%E7%BD%AE/">
               <i class="fa fa-twitter"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://zhaxiang01.github.io/about/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://zhaxiang01.github.io/2020/08/idea%E7%9A%84jdk%E5%92%8Cmaven%E9%85%8D%E7%BD%AE/">
               <i class="fa fa-google-plus"></i>
             </a>
           </li>
@@ -412,24 +538,24 @@
 </div>
 
       </div>
-      <div id="share-options-bar" class="share-options-bar" data-behavior="1">
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
   <i id="btn-close-shareoptions" class="fa fa-close"></i>
   <ul class="share-options">
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fzhaxiang01.github.io%2Fabout%2F">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fzhaxiang01.github.io%2F2020%2F08%2Fidea%25E7%259A%2584jdk%25E5%2592%258Cmaven%25E9%2585%258D%25E7%25BD%25AE%2F">
           <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
         </a>
       </li>
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fzhaxiang01.github.io%2Fabout%2F">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fzhaxiang01.github.io%2F2020%2F08%2Fidea%25E7%259A%2584jdk%25E5%2592%258Cmaven%25E9%2585%258D%25E7%25BD%25AE%2F">
           <i class="fa fa-twitter"></i><span>Share on Twitter</span>
         </a>
       </li>
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3A%2F%2Fzhaxiang01.github.io%2Fabout%2F">
+        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3A%2F%2Fzhaxiang01.github.io%2F2020%2F08%2Fidea%25E7%259A%2584jdk%25E5%2592%258Cmaven%25E9%2585%258D%25E7%25BD%25AE%2F">
           <i class="fa fa-google-plus"></i><span>Share on Google&#43;</span>
         </a>
       </li>
@@ -521,9 +647,9 @@ $(document).ready(function() {
     
       <script>
         var disqus_config = function () {
-          this.page.url = 'https:\/\/zhaxiang01.github.io\/about\/';
+          this.page.url = 'https:\/\/zhaxiang01.github.io\/2020\/08\/idea%E7%9A%84jdk%E5%92%8Cmaven%E9%85%8D%E7%BD%AE\/';
           
-            this.page.identifier = '\/about\/'
+            this.page.identifier = '\/2020\/08\/idea%E7%9A%84jdk%E5%92%8Cmaven%E9%85%8D%E7%BD%AE\/'
           
         };
         (function() {
